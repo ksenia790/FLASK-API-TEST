@@ -30,6 +30,7 @@ Follow API DOCUMENTATION below.
 <h2 align='center'>API DOCUMENTATION<h2>
 
 ## Avalible API methods for blog posts:
+ In this project was implemented next REST API methods:
 
 **GET** ` / ` - Retrieve All Questions And Answers from Database
  <br>
