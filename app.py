@@ -3,7 +3,7 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 from marshmallow import Schema,fields
 import requests
-from . import create_app, database
+from . import create_app
 from .models import Quizz
 
 ENDPOIND = "https://jservice.io/api/random"
