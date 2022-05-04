@@ -1,5 +1,5 @@
 <h1 align='center'>FLASK API</h1>
-<p> In this project was implemented simple web service using Flask, SQLAlchemi and PostrgeSQL tools which performs the following functions: </p>
+<p> In this project was implemented simple web service using Flask, SQLAlchemy and PostrgeSQL tools which performs the following functions: </p>
 <ul>
   <li>implemented REST API that accepts POST requests as input;</li>
   <li>saving query data to database;</li>
