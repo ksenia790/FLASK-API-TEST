@@ -31,7 +31,8 @@ Follow API DOCUMENTATION below.
 1. Clone the project
 2. Edit ` config.py ` accordin to your user-name and password from Postgres.
 3. Instal all requirements ` pip install -r requirements.txt `
-4. Run the app ` flask run `
+4. Provide the "FLASK_APP" environment variable ` set FLASK_APP=model.py `
+5. Run the app ` flask run `
 
 Follow API DOCUMENTATION below.
 
