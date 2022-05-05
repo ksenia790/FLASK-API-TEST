@@ -6,13 +6,11 @@ services:
       MYENV: FENV
     volumes:
       - .:/code
-    depends_on:
-      - 'database'
-  
+        
   web_run:
     extends:
       service: web 
-    command: python flask run 0.0.0.0:8000
+    command: flask run 
     ports:
       - "8000:8000"
   database:

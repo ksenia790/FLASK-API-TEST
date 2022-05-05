@@ -27,6 +27,14 @@ And finally run the web-server:
 
 Follow API DOCUMENTATION below.
 
+## How to get started if you don't have docker or docker-compose
+1. Clone the project
+2. Edit ` config.py ` accordin to your user-name and password from Postgres.
+3. Instal all requirements ` pip install -r requirements.txt `
+4. Run the app ` flask run `
+
+Follow API DOCUMENTATION below.
+
 <h2 align='center'>API DOCUMENTATION<h2>
 
 ## Avalible API methods for blog posts:

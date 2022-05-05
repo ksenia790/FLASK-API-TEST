@@ -11,4 +11,6 @@ RUN pip install -r requirements.txt
 # copy project
 COPY . /usr/src/app
 
-CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
+EXPOSE 5432
+
+# CMD ["flask", "run", "--host=0.0.0.0", "--port=8000"]
