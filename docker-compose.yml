@@ -1,11 +1,23 @@
 version: '3.5'
 services:
+  web:
+    build: .
+    environment:
+      MYENV: FENV
+    volumes:
+      - .:/code
+    depends_on:
+      - 'database'
+  
+  web_run:
+    extends:
+      service: web 
+    command: python flask run 0.0.0.0:8000
+    ports:
+      - "8000:8000"
   database:
     container_name: postgres
     image: postgres:latest
-    env_file: database.conf
-    ports:
-      - 5432:5432  
     volumes:
       - db_volume:/var/lib/postgresql
 

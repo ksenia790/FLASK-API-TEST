@@ -30,8 +30,7 @@ Follow API DOCUMENTATION below.
 <h2 align='center'>API DOCUMENTATION<h2>
 
 ## Avalible API methods for blog posts:
- In this project was implemented next REST API methods:
-
+ 
 **GET** ` / ` - Retrieve All Questions And Answers from Database
  <br>
 **POST** ` /question_num/<int:number> ` - Pulling Requested Number Of Questions From Public API And Loads Them Into The Database. After Displays last question was loaded.
